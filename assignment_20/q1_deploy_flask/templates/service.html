@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(2, 2, 66);
+            font-family: Arial, sans-serif;
+        }
+        .service {
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+        }
+        .service-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .web-dev-bg {
+            background-color: #6c5ce7;
+        }
+        .app-dev-bg {
+            background-color: #fdcb6e;
+        }
+        .marketing-bg {
+            background-color: #00b894;
+        }
+        .service h3 {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .service p {
+            color: white;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .service .btn {
+            background-color: black;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+        .service .btn:hover {
+            background-color: #555;
+        }
+        .my-4{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="my-4"> Our Services</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="service web-dev-bg">
+                    <i class="fas fa-laptop service-icon"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom web development tailored to your needs. From simple websites to complex web applications.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service app-dev-bg">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Design and development of native and hybrid mobile applications for iOS and Android platforms.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service marketing-bg">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic digital marketing services including SEO, SEM, social media marketing, and more.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <!-- Add more service sections here -->
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Homepage</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles here */
+    .navbar {
+      background-color: blue; /* vibrant orange */
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-brand:hover,
+    .navbar-nav .nav-link:hover {
+      color: #FFC300; /* vibrant yellow on hover */
+    }
+
+    .jumbotron {
+      background-image: url('https://via.placeholder.com/1500x600');
+      background-size: cover;
+      color: black;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .jumbotron h1 {
+      font-size: 3.5rem;
+    }
+
+    .jumbotron p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .service {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .service h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .service p {
+      font-size: 1.2rem;
+    }
+
+    footer {
+      background-color: blue; /* dark grey */
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Brand</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome to JECRC</h1>
+      <p class="lead">We provide amazing services to meet your needs.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Service 1</h2>
+          <p>We provide amazing services to meet your needs</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Service 2</h2>
+          <p>We provide amazing services to meet your needs</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Service 3</h2>
+          <p>We provide amazing services to meet your needs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="/signup"><button>Click to signup</button></a>
+  <br>
+  <a href="/contact"><button>Click to Contact</button></a>
+  <br>
+  <a href="/service"><button>Click for service</button></a>
+  <br>
+  <a href="/userdata"><button>User Data</button></a>
+  <br>
+  <a href="/emailsend"><button>email sender</button></a>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <span>&copy; 2024 Your Company. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS, jQuery, and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
